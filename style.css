@@ -1,0 +1,497 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%
+  }
+
+  @font-face {
+    font-family: coco3;
+    src: url(./tipografia/creato/CreatoDisplay-Light.otf);
+  }
+
+@font-face {
+  font-family: coco;
+  src: url(./tipografia/cocogoose/Cocogoose-Pro-Bold-Italic-trial.ttf);
+}
+@font-face {
+  font-family: coco2;
+  src: url(./tipografia/creato/CreatoDisplay-Black.otf);
+}
+
+body{
+  background-color: rgba(255, 255, 255, 0.711);
+  margin: 0;
+}
+
+  header {
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+  
+  }
+
+header .section img{
+  display: flex;
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+header nav a {
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  font-family: coco2;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header nav ul {
+  margin-right: 100px;
+}
+
+main .section2{
+  display: flex;
+} 
+
+main .section2 h1{
+  color: rgb(0, 0, 0);
+  font-size: 6vh;
+  padding-top: 10px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  display: flex;
+  font-family: coco2;
+}
+
+main .section2 h2{
+  color: rgb(0, 0, 0);
+  font-size: 2.5vh;
+  padding-top: 20%;
+  padding-left: 30px;
+  text-transform: uppercase;
+  display: flex;
+ font-family: coco3;
+}
+
+main .section2 h3{
+  color: rgb(0, 0, 0);
+  font-size: 2.5vh;
+  padding-top: 10px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-family: coco3;
+}
+
+main .section2 img{
+  max-width: 35% ;
+  margin: 8px auto;
+  margin-top: 3%;
+}
+
+footer{
+  background-color: hsla(216, 84%, 18%, 0.838);
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: left;
+}
+
+footer .section3 h1{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: coco2;
+  color: #f4f4f4;
+}
+
+footer .section3 h2{
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: coco2;
+  color: #f4f4f4;
+}
+
+footer .section3 h4{
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: coco2;
+  color: #fff;
+}
+
+/*CONTACTO*/
+.contacto1{
+  text-align: center;
+  border-radius: 25px;
+}
+
+.contacto1 h1{
+  font-size: 20px;
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-family: coco2;
+}
+
+.contacto1 h2{
+  font-size: 15px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-family: coco3;
+}
+
+/*CATALOGO*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 20px auto;
+  margin-top: 50px;
+  max-width: 80%;
+}
+
+.producto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+
+}
+
+.producto img {
+  width: 30vh;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.producto a {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  font-size: 24px;
+  color: black;
+
+}
+
+.producto p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.precio {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/*CATALOGO PUERTAS prowindows pvc*/
+.catpuerta img{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.catprowindows img{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.catpvc img{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+
+  /*CATALOGO*/
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 20px auto;
+    margin-top: 50px;
+    margin-bottom: 20%;
+    max-width: 70%;
+  }
+  
+  .producto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .producto:hover {
+    transform: translateY(-5px);
+  
+  }
+  
+  .producto img {
+    width: 30vh;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .producto a {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 24px;
+    color: black;
+  
+  }
+  
+  .producto p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .precio {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /*header*/
+  header nav a {
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-family: coco2;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+
+  header nav ul {
+    margin-right: 50px;
+  }
+
+  /*main*/
+
+  main .section2{
+    display: block;
+  } 
+  
+  main .section2 h1{
+    color: rgb(0, 0, 0);
+    font-size: 5vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+    font-family: coco2;
+  }
+  
+  main .section2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    padding-top: 15%;
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+   font-family: coco3;
+  }
+  
+  main .section2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: coco3;
+  }
+  
+  main .section2 img{
+    max-width: 60% ;
+    margin: 10px auto;
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+
+}
+
+@media (max-width: 650px){
+
+   /*header*/
+   header nav a {
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-family: coco2;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+
+  header nav ul {
+    margin-right: 0px;
+  }
+
+  /*main*/
+
+  main .section2{
+    display: block;
+  } 
+
+
+  main .section2 h1{
+    color: rgb(0, 0, 0);
+    font-size: 4vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+    font-family: coco2;
+  }
+  
+  main .section2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    padding-top: 10%;
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+   font-family: coco3;
+  }
+  
+  main .section2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: coco3;
+  }
+  
+  main .section2 img{
+    max-width: 50% ;
+    margin: 30px auto;
+    margin-top: 5px;
+    margin-left: 25%;
+  }
+
+}
+
+@media (max-width: 535px){
+
+   /*header*/
+   header nav a {
+    color: rgb(0, 0, 0);
+    font-size: 90%;
+    font-family: coco2;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    display: flex;
+  }
+
+  header nav ul {
+    margin-right: 0px;
+  }
+
+  /*main*/
+  
+
+
+  main .section2 h1{
+    color: rgb(0, 0, 0);
+    font-size: 3.2vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+    font-family: coco2;
+  }
+  
+  main .section2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    padding-top: 18%;
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+   font-family: coco3;
+  }
+  
+  main .section2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.8vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: coco3;
+  }
+  
+  main .section2 img{
+    max-width: 60% ;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+
+  /*FOOTER*/
+footer .section3 h1{
+  font-size: 13px;
+  padding-top: 12px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: coco2;
+  color: #f4f4f4;
+}
+
+footer .section3 h2{
+  font-size: 8px;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: coco2;
+  color: #fff;
+}
+}
+
